@@ -1,1 +1,4 @@
-
+person:
+  lastName: test
+  age: 29
+  boss: false

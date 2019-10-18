@@ -1,1 +1,4 @@
-
+person:
+  lastName: prod
+  age: 29
+  boss: false

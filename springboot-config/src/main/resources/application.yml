@@ -1,1 +1,18 @@
-server.port=8081
+server:
+  port: 8081
+
+
+#person:
+#  lastName: xiaoH
+#  age: 29
+#  boss: false
+#  birth: 2019/10/16
+#  maps: {k1: v1, k2: v2}
+#  lists:
+#    - zhangsan
+#    - lisi
+#    - wangwu
+#  dog:
+#    name: 旺财
+#    age: 2
+
