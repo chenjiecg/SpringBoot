@@ -1,0 +1,16 @@
+logging:
+  level:
+    com:
+      xiaoh:
+        springboot:
+          logging: trace
+  # \u4E0D\u6307\u5B9A\u8DEF\u5F84\u65F6\uFF0C\u5728\u5F53\u524D\u9879\u76EE\u4E0B\u751F\u6210springboot.log\u65E5\u5FD7
+  # \u4E5F\u53EF\u4EE5\u6307\u5B9A\u5B8C\u6574\u7684\u8DEF\u5F84
+  #file: springboot.log
+  # \u6307\u5B9A\u76EE\u5F55\uFF0C\u65E5\u5FD7\u6587\u4EF6\u4F7F\u7528\u9ED8\u8BA4\u7684spring.log
+  #path: /spring/log
+  #pattern:
+    # \u5728\u63A7\u5236\u53F0\u8F93\u51FA\u7684\u65E5\u5FD7\u683C\u5F0F
+    #console: %d{yyyy-MM-dd HH:mm:ss.SSS} {%thread} %-5level %logger{50} - %msg%n
+    # \u5728\u6587\u4EF6\u4E2D\u7684\u65E5\u5FD7\u683C\u5F0F
+    #file: %d{yyyy-MM-dd HH:mm:ss.SSS} {%thread} %-5level %logger{50} - %msg%n
